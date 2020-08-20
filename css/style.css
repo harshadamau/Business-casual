@@ -1,0 +1,276 @@
+body{
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('../images/bg.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+h1{
+    font-weight: 900;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial, sans-serif;
+}
+
+h2,h3{
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #999999;
+}
+
+small{
+    font-weight: 400;
+    line-height: 1;
+    color: #777;
+    font-size:65%;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+.caption{
+    text-align:center;
+}
+
+.brand{
+    color: #fff;
+    font-size: 5em;
+    font-weight: 700;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial, sans-serif;
+    padding: 30px 0 10px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    display:inherit;
+}
+
+.transBack{
+    background: rgba(255,255,255,0.9);
+}
+
+.adresss-bar {
+    display: inherit;
+    padding: 0 0 40px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    font-size: 1.25em;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+/*navigation*/
+
+.navbar-nav{
+    height:5rem;
+}
+
+#navbarNav ul{
+    margin:auto;
+    align-items: center;
+}
+
+#navbarNav a{
+    padding-right: 35px;
+    text-transform: uppercase;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size:20px;
+    letter-spacing: 3px;
+    color:#777;
+}
+
+#navbarNav a:hover{
+    text-decoration: none;
+    color:#4f4f4f;
+}
+
+.navbar-brand{
+    display: none;
+}
+
+/*artical*/
+
+.container {
+    max-width: 1170px;
+}
+
+.tagline-divider{
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+    }
+    
+.box-carousel
+    { width: 100%;
+     
+        margin-top:3%;
+    }
+.box{
+    margin-bottom: 20px;
+    padding: 30px 30px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.carousel-indicators li {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin: 1px;
+        text-indent: -999px;
+        cursor: pointer;
+        background-color : rgba(0,0,0,0);
+        border : 1px solid #fff;
+        border-radius: 10px;
+}
+
+.carousel-indicators .active {
+        width: 12px;
+        height: 12px;
+        margin: 0;
+        background-color: #fff;
+}
+
+.carousel-indicators{
+    bottom: 20px;
+}
+
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-name{
+    font-size: 4rem;
+}
+
+.visible-xs{
+    display : none;
+}
+
+/*footer*/
+
+footer {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+footer p {
+    margin: 0;
+    padding: 50px 0;
+}
+
+@media(min-width:320px) and (max-width: 768px){
+ 
+    .brand{
+        display: none;
+    }
+
+    .adresss-bar{
+        display:none;
+    }
+
+    /*navigation*/
+
+    .navbar {
+        min-height: 0;
+    }
+
+   .navbar-expand-lg {
+    background: #fff;
+    width:100%;
+   
+   }
+
+    .navbar {
+        position: relative;
+        min-height: 50px;
+        margin-bottom: 20px;
+        border: 1px solid transparent;
+        width:100%;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+    }
+
+    .navbar-toggler {
+        position: relative;
+        float: right;
+        padding: 2px 6px;
+        margin-top: 1px;
+        margin-right: -50px;
+        background-image: none;
+        border: 1px solid transparent;
+    }
+
+    .navbar-light .navbar-brand {
+        color: #777;
+   }
+
+   .navbar-brand {
+        text-transform: uppercase;
+        font-weight: 900;
+        letter-spacing: 2px;
+        display: block;
+        }
+
+    .navbar-light .navbar-toggler {
+        border-color: #ddd;
+    }
+
+/*artical*/
+
+    .carousel-indicators{
+        display:none;
+    }
+
+    .tagline-divider {
+        margin: 15px auto 3px;
+        max-width: 250px;
+        border-color: #999999;
+    }
+    small{
+       font-size:50%;
+    }
+
+    strong{
+        font-weight: 700;
+    }
+
+    .visible-xs{
+        display:block;
+        margin-top:10%;
+        margin-bottom:10%;
+        width:250px;
+    }
+    .last-para{
+        width:240px;
+        justify-content: center;
+        margin-left: 5px;
+    }
+    
+}
+ 
